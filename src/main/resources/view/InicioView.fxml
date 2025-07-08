@@ -5,12 +5,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="org.robertomilian.controller.InicioController">
+<AnchorPane id="AnchorPane" prefHeight="758.0" prefWidth="1231.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.robertomilian.controller.InicioController">
     <stylesheets>
         <URL value="@inicioview.css" />
     </stylesheets>
    <children>
-      <Label layoutX="208.0" layoutY="58.0" text="Bienvenido a mi Sistema de Ventas" />
-      <Button layoutX="260.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="82.0" text="INICIAR" />
+      <Label layoutX="70.0" layoutY="41.0" text="Bienvenido a mi Sistema de Ventas" />
+      <Button layoutX="122.0" layoutY="106.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="106.0" text="Ver Productos" />
    </children>
 </AnchorPane>
